@@ -1,6 +1,5 @@
 function _init()
-    aichan = create(actor_spr, {draw_order = 10, spr_i = 1})
--- spr = 1})
+    create(bullet, {draw_order = 10, spr_i = 1, x = 10})
 end
 
 function _update()
